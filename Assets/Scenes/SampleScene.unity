@@ -233,6 +233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdf1ffe0b96754f3ea49885230a23601, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  useECS: 1
   timeout: 1
   prefab: {fileID: 4619969320278470487, guid: c8c44ccd0d51b439ab09679c82766487, type: 3}
 --- !u!4 &1938565959
