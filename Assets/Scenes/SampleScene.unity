@@ -235,7 +235,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   useECS: 1
   timeout: 1
-  prefab: {fileID: 4619969320278470487, guid: c8c44ccd0d51b439ab09679c82766487, type: 3}
+  prefab: {fileID: 4619969320278470487, guid: 04852805fd2cb4f4083b45798469fe81, type: 3}
 --- !u!4 &1938565959
 Transform:
   m_ObjectHideFlags: 0
