@@ -14,12 +14,18 @@ public class ColliderMB : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("OnCollisionEnter2D");
-        sprite.color = Color.blue;
+        if (sprite != null)
+        {
+            sprite.color = Color.blue;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("OnTriggerEnter2D");
-        sprite.color = Color.green;
+        if (sprite != null)
+        {
+            sprite.color = Color.green;
+        }
     }
 }
